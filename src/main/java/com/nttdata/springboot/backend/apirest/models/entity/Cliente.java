@@ -41,6 +41,9 @@ public class Cliente implements Serializable {
 
 	/** Atributo fecha de tipo Date **/
 	private Date fecha;
+	
+	/** Atributo foto de tipo String **/
+	private String foto;
 
 	/**
 	 * @return the id
@@ -124,5 +127,21 @@ public class Cliente implements Serializable {
 	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
+
+	/**
+	 * @return the foto
+	 */
+	public String getFoto() {
+		return foto;
+	}
+
+	/**
+	 * @param foto the foto to set
+	 */
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
+	
+	
 
 }
